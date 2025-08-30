@@ -6,6 +6,7 @@ import NavbarComponent from './Components/NavbarComp'
 import About from './Pages/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FooterComp from './Components/Footer'
+import Skills from './Pages/Skills'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <div className="align-content-center" style={ {height: '70%' } }>
           <Routes>
             <Route path="/" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
           </Routes>
         </div>
         <div className="align-content-end" style={ {height: '10%' }}><FooterComp /></div>
