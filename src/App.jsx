@@ -1,0 +1,28 @@
+import './App.css'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import NavbarComponent from './Components/NavbarComp'
+import About from './Pages/About'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import FooterComp from './Components/Footer'
+
+function App() {
+
+  return (
+    <>
+      <BrowserRouter>
+        <NavbarComponent />
+        <div className="align-content-center" style={ {height: '70%' } }>
+          <Routes>
+            <Route path="/" element={<About />} />
+          </Routes>
+        </div>
+        <div className="align-content-end" style={ {height: '10%' }}><FooterComp /></div>
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default App
+ 
