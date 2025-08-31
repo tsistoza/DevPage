@@ -5,13 +5,13 @@ import Container from 'react-bootstrap/Container'
 const NavbarComponent = () => {
     return (
         <>
-            <Container fluid style={ { height: '20%' } }>
+            <Container fluid style={ { height: '10%' } }>
                 <Navbar className="center" bg="info" data-bs-theme="info" sticky="top" style={{ borderRadius: '20px',   width: '100%' }}>
                     <Container fluid>
                         <Nav className="me-auto p-1">
-                            <Nav.Link href="/">About</Nav.Link>
-                            <Nav.Link href="/skills">CV</Nav.Link>
-                            <Nav.Link href="#home">Projects</Nav.Link>
+                            <Nav.Link href="/" className="fw-semibold pe-4">About</Nav.Link>
+                            <Nav.Link href="/skills" className="fw-semibold pe-4">Skills</Nav.Link>
+                            <Nav.Link href="#home" className="fw-semibold pe-4">Projects</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

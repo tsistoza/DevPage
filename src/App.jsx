@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <NavbarComponent />
-        <div className="align-content-center" style={ {height: '70%' } }>
+        <div className="align-content-center" style={ {height: '80%' } }>
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/skills" element={<Skills />} />
