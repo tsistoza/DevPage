@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 const Landing = () => {
     return (
         <>
-            <Container fluid style={ {height: '100%'} }>
-                <Row>
-                    <p>LOREM IPSUM</p>
+            <Container fluid className="d-flex align-items-center text-light" style={ {height: '100%'} }>
+                <Row className="m-0 w-100">
+                    <Col className="text-center"><h1>Welcome</h1></Col>
                 </Row>
             </Container>
         </>
