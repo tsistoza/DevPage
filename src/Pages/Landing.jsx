@@ -7,7 +7,7 @@ const Landing = () => {
         <>
             <Container fluid className="d-flex align-items-center text-light" style={ {height: '100%'} }>
                 <Row className="m-0 w-100">
-                    <Col className="text-center"><h1>Welcome</h1></Col>
+                    <Col className="text-center"><h1 className="fw-semibold">Welcome</h1></Col>
                 </Row>
             </Container>
         </>

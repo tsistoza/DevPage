@@ -204,6 +204,12 @@ const Skills = () => {
                                 <h5 className="fw-semibold">Hacking - Hex Editor/GDB Debugger</h5>
                             </Col>
                         </Row>
+                        <Row className="m-0">
+                            <Col className="d-flex col-auto align-items-center"><PlusSquareDotted /></Col>
+                            <Col className="d-flex col-auto">
+                                <h5 className="fw-semibold">Bash Shell/Powershell</h5>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
