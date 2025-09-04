@@ -10,12 +10,12 @@ const About = () => {
                     </Col>
                 </Row>
                 <Row className="align-items-center" style={ { height: '100%', margin: 'auto' }}>
-                    <Col id="bootstrap-overrides" className="border border-3 border-info rounded">
-                        <h1 className="text-white text-center border-5 border-bottom border-info rounded">About me</h1>
+                    <Col id="bootstrap-overrides">
+                        <h1 className="text-white text-center border-1 border-bottom display-2">About me</h1>
                         <Row className="m-0 pb-2">
                             <Col>
                                 <p className="text-white text-center fs-5">
-                                    Recently, graduated as a Computer Engineer. I decided to pivot into Game Development because, I learned about programming back in 2018 and it became one of my favorite things to do, played a ton of games when I was young, so logically I started learning about Game Development which I only got into very recently. I am very well versed in low-level programming in C/C++ due to Computer Engineering classes, as well a bit of machine learning as well in Python.
+                                    Recently, graduated as a Computer Engineer. I decided to pivot into Game Development because, I learned about programming back in 2018 and it became one of my favorite things to do, played a ton of games when I was young, so logically I started learning about Game Development which I only got into very recently. I am very well versed in low-level programming in C/C++ due to Computer Engineering classes, as well a bit of AI/ML.
                                 </p>
                             </Col>
                         </Row>
@@ -29,7 +29,7 @@ const About = () => {
                         <Row className="m-0 pb-2">
                             <Col>
                                 <p className="text-white text-center fs-5">
-                                    Then I decided to learn Game Development in Unity, what started out as exciting future turned into a roadblock. Game Development is much more than just programming, and for me who is a solo developer, it required me to learn more. I learned Blender Modeling and Animation, GIMP/KRITA Image Editing, Shaders, SFX, and so much more. I was able to finish my first ever game (linked in projects), after several projects sidelined due to it being too ambitious. I am hoping I can find a team that also has the same passion as me, and bring my ideas to life.
+                                    Then I decided to learn Game Development in Unity, what started out as something I feel I could easily pick up, turned into an endless roads I had to go down. Game Development is much more than just programming, and for me who is a solo developer, it required me to learn more. I learned even more algorithms that are needed for specfic types of games. I learned Blender Modeling and Animation, GIMP/KRITA Image Editing, Shaders, Textures, SFX, optimization and so much more. I was able to finish my first ever game (linked in projects), after several projects sidelined due to it being too complicated for my likings. I am hoping I can find a team that also has the same passion as me, and bring my ideas to life.
                                 </p>
                             </Col>
                         </Row>
