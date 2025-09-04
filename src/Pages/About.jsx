@@ -6,7 +6,7 @@ const About = () => {
             <Container fluid className="align-item-center d-flex flex-column">
                 <Row className="m-0 pb-5">
                     <Col className="d-flex justify-content-center">
-                        <Image src="/public/Logo.jpg" roundedCircle />
+                        <Image src="/public/Logo.jpg" roundedCircle width={300} height={300} />
                     </Col>
                 </Row>
                 <Row className="align-items-center" style={ { height: '100%', margin: 'auto' }}>

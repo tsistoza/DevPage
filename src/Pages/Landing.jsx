@@ -5,9 +5,14 @@ import Container from 'react-bootstrap/Container';
 const Landing = () => {
     return (
         <>
-            <Container fluid className="d-flex align-items-center text-light" style={ {height: '100%'} }>
-                <Row className="m-0 w-100">
-                    <Col className="text-center"><h1 className="fw-semibold">Welcome</h1></Col>
+            <Container fluid className="text-light">
+                <Row className="w-100 m-0">
+                    <Col className="text-center"><h1 className="display-1 fw-semibold">Welcome</h1></Col>
+                </Row>
+                <Row className="w-100 m-0">
+                    <Col className="text-center">
+                        <p>This is my homepage. It contains my experiences, and journeys throughout my whole career.</p>
+                    </Col>
                 </Row>
             </Container>
         </>
