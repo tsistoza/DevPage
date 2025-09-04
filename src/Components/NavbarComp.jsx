@@ -13,7 +13,7 @@ const NavbarComponent = () => {
                             <Nav.Link href="/" className="pe-4"><House size={30}/></Nav.Link>
                             <Nav.Link href="/about" className="fw-semibold pe-4">About</Nav.Link>
                             <Nav.Link href="/skills" className="fw-semibold pe-4">Skills</Nav.Link>
-                            <Nav.Link href="/" className="fw-semibold pe-4">Projects</Nav.Link>
+                            <Nav.Link href="/projects" className="fw-semibold pe-4">Projects</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>

@@ -8,6 +8,7 @@ import About from './Pages/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FooterComp from './Components/Footer'
 import Skills from './Pages/Skills'
+import Projects from './Pages/Projects'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Landing />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
         <div className="align-content-end" style={ {height: '10%' }}><FooterComp /></div>

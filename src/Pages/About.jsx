@@ -6,12 +6,12 @@ const About = () => {
             <Container fluid className="align-item-center d-flex flex-column">
                 <Row className="m-0 pb-5">
                     <Col className="d-flex justify-content-center">
-                        <Image src="/public/Logo.jpg" roundedCircle width={300} height={300} />
+                        <Image src="/Logo.jpg" roundedCircle width={300} height={300} />
                     </Col>
                 </Row>
                 <Row className="align-items-center" style={ { height: '100%', margin: 'auto' }}>
                     <Col id="bootstrap-overrides">
-                        <h1 className="text-white text-center border-1 border-bottom display-2">About me</h1>
+                        <h1 className="text-white text-center border-1 border-bottom display-2 fw-semibold">About me</h1>
                         <Row className="m-0 pb-2">
                             <Col>
                                 <p className="text-white text-center fs-5">
