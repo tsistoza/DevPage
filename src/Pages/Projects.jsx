@@ -3,19 +3,13 @@ import { useState, useEffect } from 'react';
 import CardProj from '../Components/Card';
 
 const Projects = () => {
-    const [names, setNames] = useState([]);
-    const [dates, setDates] = useState([]);
-    const [descs, setDescs] = useState([]);
-
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
         fetch('/Projects.json')
         .then(response => response.json())
         .then(data => {
-            const projects = Object.values(data.Projects);
-            setNames(projects.map(project => project.name));
-            setDates(projects.map(project => project.date));
-            setDescs(projects.map(project => project.desc)); 
+            setProjects(Object.values(data.Projects));
         });
     }, []);
     
@@ -32,8 +26,9 @@ const Projects = () => {
                 </Row>
                 <Row className='m-5'>
                     {
-                        names.map((name, i) => (
-                            <CardProj key={i} name={name} date={dates[i]} desc={descs[i]} link={"/"} />
+                        projects.map((project, i) => (
+                            <CardProj key={i} name={project.name} date={project.date} desc={project.desc} 
+                            link={project.link} />
                         ))
                     }
                 </Row>

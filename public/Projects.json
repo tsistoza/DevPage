@@ -1,16 +1,22 @@
 {
     "Projects": {
         "Pintos": {"name": "PintOS", "date": "Spring 2022", 
-        "desc": "This is a team project, with me as the leader. PintOS is an operating system framework for the 80x86 architecture. Did this during my time in University, but basically we are to implement core OS features like kernel threads, user programs, virtual memory, and a file system" },
+        "desc": "This is a team project, with me as the leader. PintOS is an operating system framework for the 80x86 architecture. Did this during my time in University, but basically we are to implement core OS features like kernel threads, user programs, virtual memory, and a file system",
+        "link": "/" },
         "WordCount": {"name": "Word Count", "date": "Spring 2023", 
-        "desc": "WordCount is a console program run in a bash shell. It is supposed to replicate the command wc from the bash commands. Program is written in C."},
+        "desc": "WordCount is a console program run in a bash shell. It is supposed to replicate the command wc from the bash commands. Program is written in C.",
+        "link": "/" },
         "MemScan": {"name": "Mem Scan", "date": "Spring 2023", 
-        "desc": "Mem Scan is a program run in a bash shell. It effectively scans for memory and prints all that info into the command line. Program is written in C."},
+        "desc": "Mem Scan is a program run in a bash shell. It effectively scans for memory and prints all that info into the command line. Program is written in C.",
+        "link": "/"},
         "ReadPE": {"name": "ReadPE", "date": "Spring 2023", 
-        "desc": "ReadPE is a program run in a bash shell. Essentially all it does is read a Binary File, more specifically a PE file, and it prints the information to shell. It can read any file, but I believe I implemented a way to check if its an actual PE file. Program is written in C."},
+        "desc": "ReadPE is a program run in a bash shell. Essentially all it does is read a Binary File, more specifically a PE file, and it prints the information to shell. It can read any file, but I believe I implemented a way to check if its an actual PE file. Program is written in C.",
+        "link": "/"},
         "UHConnect": {"name": "UHConnect", "date": "Fall 2023", 
-        "desc": "This is a team project. I was appointed as team leader. UHConnect is a project we came up with for a Software Engineering class. UHConnect is a webapp, where the purpose is to introduce employers to talented UH students, and the same vice versa."},
+        "desc": "This is a team project. I was appointed as team leader. UHConnect is a project we came up with for a Software Engineering class. UHConnect is a webapp, where the purpose is to introduce employers to talented UH students, and the same vice versa.",
+        "link": "/"},
         "FlyingLow": {"name": "Flying Low", "date": "Spring 2025", 
-        "desc": "This is the first ever game I finished. It is a very simple arcade style of game, like JetPack Joyride or temple run. The basis is to dodge the obstacles, collect goals, and get as far as possible from your starting point. The longer you survive the faster you go."}
+        "desc": "This is the first ever game I finished. It is a very simple arcade style of game, like JetPack Joyride or temple run. The basis is to dodge the obstacles, collect goals, and get as far as possible from your starting point. The longer you survive the faster you go.",
+        "link": "/"}
     }
 }
