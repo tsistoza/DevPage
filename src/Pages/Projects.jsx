@@ -26,10 +26,15 @@ const Projects = () => {
                 </Row>
                 <Row className='m-5'>
                     {
-                        projects.map((project, i) => (
+                        (projects && projects.length > 0) ? (
+                            projects.map((project, i) => (
                             <CardProj key={i} name={project.name} date={project.date} desc={project.desc} 
                             link={project.link} />
                         ))
+                        ) : 
+                        (
+                            <Col className="text-center"><h1>NO PROJECTS</h1></Col>
+                        )
                     }
                 </Row>
             </Container>
