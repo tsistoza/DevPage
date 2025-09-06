@@ -1,0 +1,28 @@
+{
+    "Projects": {
+        "Pintos": {"name": "PintOS", "date": "Spring 2022", 
+            "desc": "This is a team project, with me as the leader. PintOS is an operating system framework for the 80x86 architecture. Did this during my time in University, but basically we are to implement core OS features like kernel threads, user programs, virtual memory, and a file system",
+            "link": "https://github.com/tsistoza/Projects" },
+        "WordCount": {"name": "Word Count", "date": "Spring 2023", 
+            "desc": "WordCount is a console program run in a bash shell. It is supposed to replicate the command wc from the bash commands. Program is written in C.",
+            "link": "https://github.com/tsistoza/word-count" },
+        "MemScan": {"name": "Mem Scan", "date": "Spring 2023", 
+            "desc": "Mem Scan is a program run in a bash shell. It effectively scans for memory and prints all that info into the command line. Program is written in C.",
+            "link": "https://github.com/tsistoza/memscan"},
+        "ReadPE": {"name": "ReadPE", "date": "Spring 2023", 
+            "desc": "ReadPE is a program run in a bash shell. Essentially all it does is read a Binary File, more specifically a PE file, and it prints the information to shell. It can read any file, but I believe I implemented a way to check if its an actual PE file. Program is written in C.",
+            "link": "https://github.com/tsistoza/readPE"},
+        "TigersAndGoats": {"name": "Tigers and Goats", "date": "Fall 2023",
+            "desc": "Tigers and Goats is a type of board game. And basically for this project we are making an AI that can play the game. The AI will be playing the Goats, and the Tigers will either be a player or play a very greedy algorithm, in which it will prioritise eating a goat.",
+            "link": "https://github.com/nsanthan/tigersandgoats"},
+        "UHConnect": {"name": "UHConnect", "date": "Fall 2023", 
+            "desc": "This is a team project. I was appointed as team leader. UHConnect is a project we came up with for a Software Engineering class. UHConnect is a webapp, where the purpose is to introduce employers to talented UH students, and the same vice versa.",
+            "link": "https://uh-connect.github.io/home-page/"},
+        "FlyingLow": {"name": "Flying Low", "date": "Spring 2025", 
+            "desc": "This is the first ever game I finished. It is a very simple arcade style of game, like JetPack Joyride or temple run. The basis is to dodge the obstacles, collect goals, and get as far as possible from your starting point. The longer you survive the faster you go.",
+            "link": "https://github.com/tsistoza/FlyingLow"},
+        "Other": { "name": "Other Projects", "date": "",
+            "desc": "I also have other projects that I havent finished you can go check them out on my Github Page. This includes my coding problems, I have done for the entirety of my coding career. Hundreds and Hundreds of LeetCode Problems coded in C++/C#. A couple of AI/ML Projects using data from Kaggle. A bunch of web apps. As well as other game dev projects that were sidelined for now.",
+            "link": "https://github.com/tsistoza"}
+    }
+}
