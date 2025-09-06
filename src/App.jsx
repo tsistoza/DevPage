@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FooterComp from './Components/Footer'
 import Skills from './Pages/Skills'
 import Projects from './Pages/Projects'
+import NotFound from './Pages/NotFound'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>
         <div className="align-content-end" style={ {height: '10%' }}><FooterComp /></div>
