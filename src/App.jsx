@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/DevPage">
         <NavbarComponent />
         <div className="align-content-center overflow-scroll" style={ {height: '80%' } }>
           <Routes>
@@ -33,4 +33,3 @@ function App() {
 }
 
 export default App
- 
